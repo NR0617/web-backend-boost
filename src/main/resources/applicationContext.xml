@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    id는 객체를 생성할 때 사용할 레퍼런스 변수명, 스프링은 이런 객체를 딱 하나만 가지고 있음, 싱글톤패턴이라고 함    -->
+    <bean id="userBean" class="org.example.UserBean"></bean>
+
+</beans>
